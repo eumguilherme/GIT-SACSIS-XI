@@ -1,16 +1,23 @@
 #include<stdio.h>
-int soma(n1,n2){
+int soma(int n1, int n2){
 	
 	return n1+n2;
 }
 
-int subtrai(n1,n2){
+int subtrai(int n1, int n2){
 	
 	return n1-n2;
 }
+
+int multiplicacao(int n1, int n2){
+	
+	return n1*n2;
+}
+
 int main(){
 	printf("\nCalculadora!");
 	printf("\nSoma de dois numeros: %d",soma(5,5));
 	printf("\nSubtracao de dois numeros: %d",subtrai(5,2));
+	printf("\nMultiplicacao de dois numeros: %d", multiplicacao(5,3));
 	return 0;
 }
